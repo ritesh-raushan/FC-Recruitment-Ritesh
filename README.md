@@ -2,6 +2,14 @@
 
 A REST API built with FastAPI for managing blog posts. Uses PostgreSQL for data storage and runs entirely in Docker containers.
 
+## Live Demo
+
+The API is deployed and accessible at:
+- Production: https://fc-recruitment-ritesh-production.up.railway.app
+- Custom domain: https://fc.riteshraushan.me
+
+Try the interactive API docs: https://fc-recruitment-ritesh-production.up.railway.app/docs
+
 ## What it does
 
 Basic CRUD operations for blog posts:
@@ -53,6 +61,11 @@ This starts three containers:
 
 ### Access points
 
+**Production:**
+- API: https://fc-recruitment-ritesh-production.up.railway.app
+- Interactive docs: https://fc-recruitment-ritesh-production.up.railway.app/docs
+
+**Local development:**
 - API: http://localhost:8000
 - Interactive docs: http://localhost:8000/docs
 - Adminer: http://localhost:8080
